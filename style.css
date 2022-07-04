@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+padding: 0;margin: 0;
+font-family: 'Open Sans', sans-serif;
+box-sizing: border-box;
+}
+
+
+body{
+    /* background-color: #0B6AB4; */
+    background-color: #2991e0;
+}
+.container{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.header .logo{
+font-size: 32px;
+color: white;
+
+}
+.header .heading{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+.form input[type="email"],input[type="password"]{
+    width: 80%;
+    outline: none;
+    border-radius: 2px;
+    padding: 10px;
+    border: none;
+    margin-top: 1px;
+    background-color: white;
+} 
+
+.button input[type="submit"]{
+    width: 80%;
+    padding:10px;
+    background-color: #0673c7;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    /* font-size: 15px; */
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+margin-top: 10px;
+color: whitesmoke;
+}
+.footer a{
+font-weight: bold;
+text-decoration: none;
+color: white;
+}
